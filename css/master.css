@@ -121,7 +121,7 @@ blockquote i {
     flex: 1 1 300px;
 }
 .f-l {
-    flex: 1 1 400px;
+    flex: 1 1 340px;
 }
 
 /*ANCHOR Spacing*/
@@ -228,4 +228,43 @@ blockquote i {
 
 .shadow {
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.form-contact {
+    width: 100%;
+    display: grid;/*PARENT*/
+    grid-template-areas:
+    "prenom prenom nom nom" 
+    "tel tel email email"
+    "subject subject subject subject"
+    "message message message message"
+    ". button button ."; 
+    gap: 1rem;
+}
+
+/*ENFANTS*/
+.form-contact__item--prenom {
+    grid-area: prenom;
+}
+.form-contact__item--nom {
+    grid-area: nom;
+}
+.form-contact__item--email {
+    grid-area: email;
+}
+.form-contact__item--tel {
+    grid-area: tel;
+}
+.form-contact__item--subject {
+    grid-area: subject;
+}
+.form-contact__item--message {
+    grid-area: message;
+}
+.form-contact__item--button {
+    grid-area: button;
+}
+
+.form-contact__item > * {/*Séléctionner les enfants  directs*/
+    width: 100%;
 }
