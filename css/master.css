@@ -39,6 +39,9 @@ header,footer {
 
 aside {
     flex: 1 1 300px;
+    background-image: url('./images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -104,6 +107,10 @@ blockquote i {
     align-items: center;
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
 /*ANCHOR FLEX Items*/
 
 .f-s {
@@ -119,6 +126,11 @@ blockquote i {
     padding: 1rem;
 }
 
+.my-4 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
 /* ANCHOR TYPO */
 
 .txt-center {
@@ -126,6 +138,13 @@ blockquote i {
 }
 
 /*ANCHOR COMPONENTS*/
+
+.main-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;/*Passe en avant plan*/
+}
 
 .main-header__logo-img {
     display: block;
@@ -176,7 +195,8 @@ blockquote i {
 .card {
     margin-top: 16px;
     box-shadow: 0 0 16px rgba(0,0,0,0.2);
-
+    position: sticky;
+    top: calc( var(--header-height) + 3rem );
 }
 
 .card__img {
@@ -195,4 +215,8 @@ blockquote i {
     left: -16px;
     mix-blend-mode: multiply;
     opacity: 0.8;
+}
+
+.main-container {
+    margin-top: var(--header-height);
 }
