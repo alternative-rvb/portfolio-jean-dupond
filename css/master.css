@@ -19,7 +19,7 @@
     /* background-color: rgba(0,0,0,0.1); */
 }
 
-img {
+img, video {
     /*FIXME Attention à la taille du logo*/
     width: 100%;
 }
@@ -31,7 +31,7 @@ body {
     font-size: large;
 }
 
-header,footer {
+.main-header,.main-footer {
     min-height: var(--header-height);
     background-color: var(--dark);
     color: var(--white);
@@ -112,12 +112,16 @@ blockquote i {
 }
 
 /*ANCHOR FLEX Items*/
+/*ANCHOR Sizing*/
 
 .f-s {
     flex: 1 1 120px;
 }
 .f-m {
     flex: 1 1 300px;
+}
+.f-l {
+    flex: 1 1 400px;
 }
 
 /*ANCHOR Spacing*/
@@ -220,4 +224,8 @@ blockquote i {
 
 .main-container {
     margin-top: var(--header-height);
+}
+
+.shadow {
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
