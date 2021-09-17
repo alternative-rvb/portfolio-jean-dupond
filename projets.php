@@ -8,12 +8,12 @@
     <!-- ANCHOR SEO -->
     <meta name="description" content="Jeand Dupond - Développeur Full Stack">
     <title>Jean Dupond - Développeur Web</title>
-    <?= include('./inc/link.php') ?>
+    <?php include('./inc/link.php') ?>
 </head>
 
 <body>
 
-    <?= include('./inc/header.php') ?>
+    <?php include('./inc/header.php') ?>
 
     <div class="main-container d-flex f-wrap g-1">
         <aside class="p-1">
@@ -139,7 +139,7 @@
         </main>
     </div>
 
-    <?= include('./inc/footer.php') ?>
+    <?php include('./inc/footer.php') ?>
 
 
 </body>

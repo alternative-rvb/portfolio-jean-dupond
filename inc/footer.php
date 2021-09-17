@@ -2,4 +2,4 @@
     <p class="txt-center"><small>© Jean-Dupond 2021</small></p>
 </footer>
 
-<?= include('js.php') ?>
+<?php include('js.php') ?>

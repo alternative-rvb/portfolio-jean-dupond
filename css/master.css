@@ -28,9 +28,9 @@ video {
 
 body {
     margin: 0 auto;
-    max-width: 1920px;
     font-family: 'Prompt', sans-serif;
     font-size: large;
+    position: relative;
 }
 
 aside {
@@ -163,8 +163,10 @@ blockquote i {
 .main-header {
     position: fixed;
     top: 0;
-    width: 100%;
+    left:0;
+    right:0;
     z-index: 1;
+    margin: auto;
     /*Passe en avant plan*/
 }
 
@@ -201,6 +203,9 @@ blockquote i {
 
 .main-container {
     margin-top: var(--header-height);
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .form-contact {
