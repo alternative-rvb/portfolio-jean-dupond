@@ -2,6 +2,12 @@
 .main-header__logo {
     flex: 1 1 150px;
 }
+.main-header__logo-link {
+    display: block;
+}
+.main-header__logo-img {
+    width: 150px;
+}
 
 .menu {
     display: none;
@@ -19,14 +25,14 @@
     color: var(--primary);
 }
 
-.main-header__button {
+.main-header__menu-button {
     padding: 1rem;
     font-size: 2.5rem;
     flex: 1 1 150px;
 }
 
 
-.btn {
+.btn-cta{
     display: inline-block;
     padding: 1rem 2rem;/*HB - GD*/
     background-color: transparent;
@@ -37,9 +43,11 @@
     font-weight: bold;
     text-transform: uppercase;
     transition: border 500ms, background 500ms;
+    margin-left: auto;
+    white-space: nowrap;
 }
 
-.btn:hover {
+.btn-cta:hover {
     background-color: var(--primary);
     border: 4px solid transparent;
     color: var(--white);
@@ -51,19 +59,20 @@
     background-color: var(--dark);
     display: block;
     position: absolute;
-    top: calc(var(--header-height) + 1.6rem);
+    top: var(--header-height) ;
     left: 0;
     right: 0;
+    border-top: 1px solid rgba(255,255,255,0.2);
 }
 
 
 /*ANCHOR DESKTOP*/
 @media screen and (min-width: 600px) {
-    .main-header__button {
+    .main-header__menu-button {
         display: none;
     }
 
     .menu {
-        display: block;
+        display: flex;
     }
 }

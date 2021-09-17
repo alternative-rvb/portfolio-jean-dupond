@@ -1,6 +1,6 @@
 console.log("script topnav.js is running...");
 
-const actionButton = document.querySelector('.main-header__button');
+const actionButton = document.querySelector('.main-header__menu-button');
 const menu = document.querySelector('.menu');
 
 console.log("Contenu de la variable actionButton : " , actionButton );
