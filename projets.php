@@ -59,7 +59,7 @@
                         <p>Description du projet</p>
                     </div>
                     <footer class="summary__footer p-1">
-                        <a href="#">En savoir plus</a>
+                        <a class="btn-link" href="#">En savoir plus</a>
                     </footer>
                 </article>
                 <article class="summary f-l shadow">
@@ -71,7 +71,7 @@
                         <p>Description du projet</p>
                     </div>
                     <footer class="summary__footer p-1">
-                        <a href="#">En savoir plus</a>
+                        <a class="btn-link" href="#">En savoir plus</a>
                     </footer>
                 </article>
                 <article class="summary f-l shadow">
@@ -83,7 +83,7 @@
                         <p>Description du projet</p>
                     </div>
                     <footer class="summary__footer p-1">
-                        <a href="#">En savoir plus</a>
+                        <a class="btn-link" href="#">En savoir plus</a>
                     </footer>
                 </article>
                 <article class="summary f-l shadow">
@@ -95,7 +95,7 @@
                         <p>Description du projet</p>
                     </div>
                     <footer class="summary__footer p-1">
-                        <a href="#">En savoir plus</a>
+                        <a class="btn-link" href="#">En savoir plus</a>
                     </footer>
                 </article>
                 <article class="summary f-l shadow">
@@ -107,7 +107,7 @@
                         <p>Description du projet</p>
                     </div>
                     <footer class="summary__footer p-1">
-                        <a href="#">En savoir plus</a>
+                        <a class="btn-link" href="#">En savoir plus</a>
                     </footer>
                 </article>
                 <article class="summary f-l shadow">
@@ -119,7 +119,7 @@
                         <p>Description du projet</p>
                     </div>
                     <footer class="summary__footer p-1">
-                        <a href="#">En savoir plus</a>
+                        <a class="btn-link" href="#">En savoir plus</a>
                     </footer>
                 </article>
                 <article class="summary f-l shadow">
@@ -131,7 +131,7 @@
                         <p>Description du projet</p>
                     </div>
                     <footer class="summary__footer p-1">
-                        <a href="#">En savoir plus</a>
+                        <a class="btn-link" href="#">En savoir plus</a>
                     </footer>
                 </article>
             </div>
