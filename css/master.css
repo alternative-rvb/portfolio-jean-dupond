@@ -128,6 +128,10 @@ blockquote i {
     flex: 1 1 340px;
 }
 
+.mw-500 {
+    max-width: 900px;
+}
+
 /*ANCHOR Spacing*/
 .p-1 {
     padding: 1rem;
@@ -136,6 +140,10 @@ blockquote i {
 .my-4 {
     margin-top: 4rem;
     margin-bottom: 4rem;
+}
+
+.m-auto {
+    margin: auto;
 }
 
 /* ANCHOR TYPO */
@@ -217,7 +225,7 @@ blockquote i {
         "tel tel email email"
         "subject subject subject subject"
         "message message message message"
-        ". button button .";
+        ". . . button";
     gap: 1rem;
 }
 

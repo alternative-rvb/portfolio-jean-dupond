@@ -47,7 +47,7 @@
         </aside>
         <main class="p-1">
             <h1>Contact</h1>
-            <form class="form-contact" action="#">
+            <form class="form-contact mw-500 m-auto" action="#">
 
                 <div class="form-contact__item form-contact__item--prenom">
                     <label for="prenom">Prénom</label>
@@ -79,7 +79,7 @@
                     <textarea id="message" cols="30" rows="10" required></textarea>
                 </div>
                 <div class="form-contact__item form-contact__item--button">
-                    <button type="submit">ENVOYER</button>
+                    <button class="btn" type="submit">ENVOYER</button>
                 </div>
 
 
