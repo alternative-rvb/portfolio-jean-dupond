@@ -1,7 +1,7 @@
 <header class="main-header p-1 d-flex f-wrap jc-sb ai-c">
 
 <div class="main-header__logo">
-    <a class="main-header__logo-link" href="#">
+    <a class="main-header__logo-link" href="index.php">
         <img class="main-header__logo-img" src="./images/Logo-Jean-Dupond.svg" alt="Logo" width="150">
     </a>
 </div>
