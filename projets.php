@@ -8,38 +8,12 @@
     <!-- ANCHOR SEO -->
     <meta name="description" content="Jeand Dupond - Développeur Full Stack">
     <title>Jean Dupond - Développeur Web</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/topnav.css">
+    <?= include('./inc/link.php') ?>
 </head>
 
 <body>
 
-    <header class="main-header p-1 d-flex f-wrap jc-sb ai-c">
-
-        <div class="main-header__logo">
-            <a class="main-header__logo-link" href="#">
-                <img class="main-header__logo-img" src="./images/Logo-Jean-Dupond.svg" alt="Logo" width="150">
-            </a>
-        </div>
-
-        <nav class="menu menu--header d-flex ">
-            <a class="menu__link p-1" href="index.html">Accueil</a>
-            <a class="menu__link p-1" href="projets.html">Projets</a>
-            <a class="menu__link p-1" href="contact.html">Contact</a>
-            <a class="btn-cta" href="#">
-                <i class="fas fa-phone-volume"></i>
-                Appelez-moi
-            </a>
-        </nav>
-
-        <div class="main-header__menu-button txt-right">
-            <i class="fas fa-bars"></i>
-        </div>
-        
-    </header>
+    <?= include('./inc/header.php') ?>
 
     <div class="main-container d-flex f-wrap g-1">
         <aside class="p-1">
@@ -165,9 +139,8 @@
         </main>
     </div>
 
-    <footer class="main-footer p-1">
-        <p class="txt-center"><small>© Jean-Dupond 2021</small></p>
-    </footer>
+    <?= include('./inc/footer.php') ?>
+
 
 </body>
 
